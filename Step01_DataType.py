@@ -63,3 +63,20 @@ chatgpt = None
 
 
 print('현재는 빈 값인가요 ? ',chatgpt)
+
+
+isMan = True
+isWoman = False
+isDifferent = True
+isRun= False
+
+print('남자인가요 ? ',isMan)
+print('여자인가요 ? ',isWoman)
+print('다른가요 ? ',isDifferent)
+print('달리는 중인가요 ? ',isRun)
+
+## python에서 data type은 어떻게 알아내?
+print(type(isMan))
+print(type(isWoman))
+print(type(isDifferent))
+print(type(isRun))
