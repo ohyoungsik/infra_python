@@ -4,7 +4,7 @@
     여러분의 이름과 주소 좋아하는 음식 2가지를 작성해서 챗팅장에 올려보세요.
     
 """
-# 이름과 주소 좋아하는 음식 2가지를 분리해서 변수에 담아서 활용하려면 어떻게하지?
+
 import json
 
 
@@ -48,7 +48,7 @@ ysInfo = """{
 """
 print('json 형식으로 작성한 정보 ', ysInfo)
 
-#python에서 json 형식을 어떻게 활용해?
+
 
 jsonInfo_dict = json.loads(ysInfo)
 print('json 변환 ', jsonInfo_dict)

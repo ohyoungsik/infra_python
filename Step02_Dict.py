@@ -14,8 +14,8 @@ memInfo = {'num':1  , 'name' : 'youngsik', 'addr':  '용인' }
 ## dict type 의 key 는 고유한 값이어야 하며, value 는 어떤 데이터 타입이든 될 수 있습니다.
 ## 만약에 key 가 중복된다면, 마지막에 선언된 key 의 value 가 저장됩니다.
 
-## 만약에 memInfo에서 key 값을 내가 직접적으로 섵개하지 않고 가져오는 방법은 뭐야?
-## print(memInfo['num']) -> memInfo.get('num') 으로 가져올 수 있습니다. 이렇게 말고 다르게 가져오는 방법이있어 ?
+
+## print(memInfo['num']) -> memInfo.get('num') 으로 가져올 수 있습니다.
 
 print(memInfo['num'])
 print(memInfo['name'])

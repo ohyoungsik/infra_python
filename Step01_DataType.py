@@ -75,7 +75,6 @@ print('여자인가요 ? ',isWoman)
 print('다른가요 ? ',isDifferent)
 print('달리는 중인가요 ? ',isRun)
 
-## python에서 data type은 어떻게 알아내?
 print(type(isMan))
 print(type(isWoman))
 print(type(isDifferent))
