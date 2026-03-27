@@ -1,0 +1,8 @@
+# config.text file
+
+####################
+num=1name=kim lee park
+####################
+SELINUX=disabled text=aaa aaa=bbb
+####################
+addr=seoul
